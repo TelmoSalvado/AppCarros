@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/btn_Carro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttom_shapesss"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:onClick="abrirCarro"
+        android:text="Carro"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_oficina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttom_shapesss"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:onClick="abriroficina"
+        android:text="Oficina"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_prefile_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttom_shapesss"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:onClick="abrirPrefil"
+        android:text="Perfil"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttom_shapesss"
+        android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:paddingLeft="10dp"
+        android:text="Sair"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

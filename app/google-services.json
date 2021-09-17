@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "914204378220",
+    "firebase_url": "https://alugercarros-cb315-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "alugercarros-cb315",
+    "storage_bucket": "alugercarros-cb315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914204378220:android:d398959a3c2f98496b8449",
+        "android_client_info": {
+          "package_name": "pt.ipg.appcarros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914204378220-njf03s4c6q08qg8196cqq7f495e77vpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB85OoRnef6N5gjbACijWOVqsRezxCKDGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914204378220-njf03s4c6q08qg8196cqq7f495e77vpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
